@@ -1,0 +1,121 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    margin: none;
+    background-color: rgba(7, 6, 6, 0.952);
+}
+.class{
+    width: 700px;
+    margin: 30px  auto;
+    /* border: 1px solid rgb(48, 47, 47); */
+    color: rgb(227, 224, 224);
+    border-radius: 18px;
+    padding: 12px 50px;
+}
+.details{
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+}
+.input{
+    width: 80%;
+    padding: 12px 20px;
+    background-color: rgb(37, 35, 35);
+    color: rgb(224, 215, 215);
+    border: none;
+    /* border: 1px solid rgb(63, 62, 62); */
+    border-radius: 15px 0 0 15px  ;
+    font-size: 14px;
+}
+.input::placeholder{
+    color: rgb(243, 225, 225);
+}
+.input:focus{
+    outline: none;
+}
+.btn{
+    background-color:rgba(255, 0, 0, 0.541);
+    color:white;
+    border: none;
+    border-radius:0 15px 15px 0;
+    padding: 12px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 20%;
+}
+.btn:hover{
+    background-color: rgb(171, 44, 44);
+}
+.flex{
+    display: flex;
+}
+.movieImage{
+    height: 290px;
+    border-radius: 20px;
+    
+}
+/* .flex-image{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+} */
+.hidden{
+    display: none;
+}
+.movie-flex-box{
+    display: flex;
+    gap: 60px;
+    margin-top: 30px;
+}
+.image{
+    position: relative;
+}
+.great-review{
+    width: 150px;
+    background-color: rgb(4, 95, 63);
+    border-radius: 18px;
+    position: absolute;
+    top: 3px;
+    left: 22px;
+    color: white;
+    height: inherit;
+    text-align: center;
+    font-size: 12px;
+    padding: 0%;
+}
+.good-review{
+    width: 150px;
+    background-color: rgb(162, 157, 57);
+    border-radius: 18px;
+    position: absolute;
+    top: 3px;
+    left: 22px;
+    color: white;
+    height: inherit;
+    text-align: center;
+    font-size: 12px;
+    padding: 0%;
+}
+.bad-review{
+    width: 150px;
+    background-color: rgb(165, 59, 51);
+    border-radius: 18px;
+    position: absolute;
+    top: 3px;
+    left: 22px;
+    color: white;
+    height: inherit;
+    text-align: center;
+    font-size: 12px;
+    padding: 0%;
+}
+.error{
+    margin: 30px 100px;
+    font-weight: 900;
+    text-align: center;
+    transition: .4s;
+}
+.container{
+    transition: .4s;
+}

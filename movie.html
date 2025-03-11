@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapping</title>
+    <link rel="stylesheet" href="map.css">
+</head>
+<body>
+    <div class="class">
+        <h1 style="text-align: center;font-weight: bold;font-size: 40px;">Search the movies you want...</h1>
+        <h4 style="text-align: center;font-size: 20px;font-weight: 400;">Collection of diverse movies with genres, ratings, years,actors...</h4>
+        <div class="flex">
+            <input type="text" placeholder="Search the movie" class="input" id="movieInput">
+            <button class="btn" id="SearchButton"  onclick="MovieDetails()">Search</button>
+        </div>
+        <div class="container" class="" id="container">
+            <div class="movie-flex-box">
+                <div class="movieDetails">
+                    <p><span  id="title" style="font-size: 20px;font-weight: 800;color: white;"></span></p>
+                    <p><span id="des" style="color: white;"></span></p>
+                    <div class="flex-image">
+                    <div class="details">
+                        <p>Genre : <span id="genre"></span></p>
+                        <p>Actors : <span id="actors"></span></p>
+                        <p>Director : <span id="director"></span></p>
+                        <p>Awards : <span id="awards"></span></p>
+                        <p>Imdb Ratings : <span id="imdb"></span></p>
+                    </div>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="" id="movieImage" alt="" class="movieImage">
+                    <div class="review" style="font-size: 10px;padding: none;"><p id="review" ></p></div>
+                </div>
+            </div>
+        </div>
+        <div class="error">
+            <h1 id="error"></h1>
+        </div>
+    </div>
+    <script src="movie.js"></script>
+</body>
+</html>
