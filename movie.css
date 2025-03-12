@@ -114,8 +114,58 @@ body{
     margin: 30px 100px;
     font-weight: 900;
     text-align: center;
-    transition: .4s;
+    transition: .1s;
 }
 .container{
-    transition: .4s;
+    transition: .2s;
+}
+@media screen and (max-width:400px) {
+    .input{
+        width: 70%;
+        padding: 20px 20px;
+        background-color: rgb(37, 35, 35);
+        color: rgb(224, 215, 215);
+        border: none;
+        /* border: 1px solid rgb(63, 62, 62); */
+        border-radius: 15px  ;
+        font-size: 14px;
+    }
+    .input::placeholder{
+        color: rgb(243, 225, 225);
+    }
+    .input:focus{
+        outline: none;
+    }
+    .btn{
+        background-color:rgba(255, 0, 0, 0.541);
+        color:white;
+        border: none;
+        border-radius:15px ;
+        padding: 15px;
+        font-size: 16px;
+        cursor: pointer;
+        width: 30%;
+        
+    }
+    .btn:hover{
+        background-color: rgb(171, 44, 44);
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        justify-content: center;
+        align-items: center;
+    }
+    .movie-flex-box{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .movieImage{
+        width: 400px;
+        height: 550px;
+        border-radius: 20px;
+        
+    }
 }
