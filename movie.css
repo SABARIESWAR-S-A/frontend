@@ -163,9 +163,50 @@ body{
         gap: 30px;
     }
     .movieImage{
-        width: 400px;
-        height: 550px;
+        width: 90%;
+        height: inherit;
         border-radius: 20px;
-        
+        margin-left: 15px;
+        overflow: hidden;
     }
+    
+.great-review{
+    width: 70%;
+    background-color: rgb(4, 95, 63);
+    border-radius: 18px;
+    position: absolute;
+    top: 3px;
+    left: 11%;
+    color: white;
+    height: inherit;
+    text-align: center;
+    font-size: 12px;
+    padding: 3px;
+}
+.good-review{
+    width: 70%;
+    background-color: rgb(162, 157, 57);
+    border-radius: 18px;
+    position: absolute;
+    top: 3px;
+    left: 11%;
+    color: white;
+    height: inherit;
+    text-align: center;
+    font-size: 12px;
+    padding: 3px;
+}
+.bad-review{
+    width: 70%;
+    background-color: rgb(165, 59, 51);
+    border-radius: 18px;
+    position: absolute;
+    top: 3px;
+    left: 11%;
+    color: white;
+    height: inherit;
+    text-align: center;
+    font-size: 12px;
+    padding: 3px;
+}
 }
