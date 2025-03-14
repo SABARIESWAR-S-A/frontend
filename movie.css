@@ -6,7 +6,7 @@ body{
 }
 .class{
     width: 700px;
-    margin: 30px  auto;
+    margin: 30px  auto 0 auto;
     /* border: 1px solid rgb(48, 47, 47); */
     color: rgb(227, 224, 224);
     border-radius: 18px;
@@ -53,6 +53,14 @@ body{
     height: 290px;
     border-radius: 20px;
     
+}
+.title{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.description{
+    font-size: 18px;
+    font-weight: 500;
 }
 /* .flex-image{
     width: 100%;
@@ -119,7 +127,7 @@ body{
 .container{
     transition: .2s;
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     .input{
         width: 70%;
         padding: 20px 20px;
@@ -136,6 +144,9 @@ body{
     .input:focus{
         outline: none;
     }
+    .details{
+        font-size: 25px;
+    }
     .btn{
         background-color:rgba(255, 0, 0, 0.541);
         color:white;
@@ -150,7 +161,7 @@ body{
     .btn:hover{
         background-color: rgb(171, 44, 44);
     }
-    .flex{
+     .flex{
         display: flex;
         flex-direction: column;
         gap: 18px;
@@ -163,50 +174,58 @@ body{
         gap: 30px;
     }
     .movieImage{
-        width: 90%;
-        height: inherit;
+        height: 400px;
+        width: inherit;
         border-radius: 20px;
         margin-left: 15px;
         overflow: hidden;
     }
+    .title{
+        font-size: 35px;
+        font-weight: bolder;
+    }
+    .description{
+        font-size: 25px;
+        font-weight: 500;
+    } 
     
 .great-review{
-    width: 70%;
+    width: 35%;
     background-color: rgb(4, 95, 63);
     border-radius: 18px;
     position: absolute;
     top: 3px;
-    left: 11%;
+    left: 3%;
     color: white;
     height: inherit;
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
     padding: 3px;
 }
 .good-review{
-    width: 70%;
+    width: 35%;
     background-color: rgb(162, 157, 57);
     border-radius: 18px;
     position: absolute;
     top: 3px;
-    left: 11%;
+    left: 4%;
     color: white;
     height: inherit;
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
     padding: 3px;
 }
 .bad-review{
-    width: 70%;
+    width: 35%;
     background-color: rgb(165, 59, 51);
     border-radius: 18px;
     position: absolute;
     top: 3px;
-    left: 11%;
+    left: 6%;
     color: white;
     height: inherit;
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
     padding: 3px;
 }
-}
+} 
