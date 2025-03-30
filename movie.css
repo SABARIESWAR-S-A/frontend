@@ -3,9 +3,10 @@ body{
     box-sizing: border-box;
     margin: none;
     background-color: rgba(7, 6, 6, 0.952);
+    width: 100wh;
 }
 .class{
-    width: 700px;
+    width: 70%;
     margin: 30px  auto 0 auto;
     /* border: 1px solid rgb(48, 47, 47); */
     color: rgb(227, 224, 224);
@@ -221,7 +222,7 @@ body{
     border-radius: 18px;
     position: absolute;
     top: 3px;
-    left: 6%;
+    left: 4%;
     color: white;
     height: inherit;
     text-align: center;

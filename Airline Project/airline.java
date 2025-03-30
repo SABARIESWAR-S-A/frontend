@@ -9,7 +9,7 @@ const url = "https://api.aviationstack.com/v1/flights?access_key=0f7f2eef266fc20
 //     const result = response.text();
 //     console.log(result);
 // } catch (error) {
-//     console.error('error');
+//     console.log('Error');
 // }
 let flight=fetch(url).then(data=>data.json()).then(data=> console.log(data));
 
